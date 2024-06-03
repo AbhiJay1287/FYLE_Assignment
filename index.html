@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <script
+      src="https://kit.fontawesome.com/3e8ef7fc9d.js"
+      crossorigin="anonymous"
+      ></script>
+    <title>Services</title>
+  </head>
+  <body>
+    <div class="contactContainer">
+      <div class="left">
+        <p class="award">AWARD WINNING</p>
+        <h2 class="digital">DIGITAL MARKETING AGENCY</h2>
+        <p class="content1">
+          Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+          Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus
+          nec risus finibus feugiat et fermentum
+        </p>
+        <button class="contactButton" onclick="openModal()">Contact Us</button>
+      </div>
+      <div class="right">
+        <img src="./assests/hero.png" alt="hero" id="heroImage" />
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <section class="contact">
+          <h1 class="title">Talk to us</h1>
+          <form action="https://getform.io/f/wbrkqgoa" id="form" method="POST">
+          <div class="contact-form row">
+            <div class="form-field col-lg-12">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="input-text"
+                onfocus="handleFocus(this)"
+                onkeyup="handleInputChange(this)"
+              />
+              <label for="email" class="label">Work email*</label>
+            </div>
+            <div class="rowOne">
+              <div class="form-field col-lg-6">
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  class="input-text"
+                  onfocus="handleFocus(this)"
+                  onkeyup="handleInputChange(this)"
+                />
+                <label for="first-name" class="label">First name*</label>
+              </div>
+              <div class="form-field col-lg-6">
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  class="input-text"
+                  onfocus="handleFocus(this)"
+                  onkeyup="handleInputChange(this)"
+                />
+                <label for="last-name" class="label">Last name*</label>
+              </div>
+            </div>
+            <div class="form-field col-lg-12">
+              <div class="checkbox-field">
+                <input type="checkbox" id="terms" />
+                <label for="terms" class="checkbox-label"
+                  >I agree to Fyle's terms and conditions, and provide consent
+                  to send me communication.</label
+                >
+              </div>
+            </div>
+            <div class="form-field col-lg-12">
+              <input
+                type="submit"
+                class="submit-btn"
+                value="Contact Us"
+                onclick="closeModal()"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="first">
+      <h2>WHAT WE DO</h2>
+      <div class="headings">
+        <h1>SERVICES PROVIDE FOR YOU</h1>
+        <p class="heading-2">
+          Morbi sed locus nec risus finibus feugiat et fermentum nibh-
+          Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus
+          nec risus finibus feugiat et fermentum
+        </p>
+      </div>
+      <div class="slider">
+        <div class="slides">
+          <div class="slide" id="slide1">
+            <div class="image-container">
+              <img src="./assests/flowers.jpg" alt="Image 1" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-code"></i>
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./assests/Girl1.png" alt="Image 2" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-pen-nib"></i>
+                  <h2>DESIGN</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./assests/glasses.png" alt="Image 3" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-cloud"></i>
+                  <h2>CLOUD</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide" id="slide2">
+            <div class="image-container">
+              <img src="./assests/shelves.jpeg" alt="Image 4" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-mobile"></i>
+                  <h2>FLUTTER</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./assests/shelves1.jpg" alt="Image 5" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-code"></i>
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-container">
+              <img src="./assests/Girl1.png" alt="Image 2" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-brands fa-uikit"></i>
+                  <h2>UI/UX</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide" id="slide3">
+            <div class="image-container">
+              <img src="./assests/flowers.jpg" alt="Image 1" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-database"></i>
+                  <h2>DATA ANALYST</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./assests/glasses.png" alt="Image 3" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-solid fa-code"></i>
+                  <h2>CODE</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./assests/shelves1.jpg" alt="Image 5" />
+              <div class="overlay">
+                <div class="content">
+                  <i class="fa-brands fa-android"></i>
+                  <h2>ANDROID</h2>
+                  <p>
+                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                    Pellentesque
+                  </p>
+                  <a href="https://www.fylehq.com/">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots">
+          <div class="dotContainer">
+            <span class="dot" onclick="currentSlide(1)"></span>
+          </div>
+          <div class="dotContainer">
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+          <div class="dotContainer">
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h1 class="chooseus">WHY CHOOSE US</h1>
+    <h2 class="best">WHY WE ARE BEST</h2>
+    <div class="boxContainer second">
+      <div class="box">
+        <img src="./assests/target1.png" style="width: 37%;" />
+        <h3>Clarified Vision & Target</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./assests/performnace.png" />
+        <h3>High Performance</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./assests/security.png " style="width: 31%;" />
+        <h3>Maintain Security</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./assests/strategy.png" />
+        <h3>Better Strategy & Quality</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy.
+        </p>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <h1 class="chooseus">OUR PROJECT</h1>
+    <h2 class="best">WHY WE ARE BEST</h2>
+    <div class="second">
+      <div class="container">
+        <div class="image-container">
+          <img id="main-image" src="./assests/fruits.png" alt="Main Image" />
+        </div>
+        <div class="headings-container">
+          <div
+            class="heading-div"
+            onclick="showImage('./assests/table2.jpg', this)"
+          >
+            <h2>Genderless Kei — Japan's Hot</h2>
+            <p>
+              Set to launch on the manufacturers new A330neo aircraft in 2017,
+              it'S offering lots of
+            </p>
+          </div>
+          <div
+            class="heading-div"
+            onclick="showImage('./assests/fruits.png', this)"
+          >
+            <h2>Better Strategy & Quality</h2>
+            <p>
+              Set to launch on the manufacturers new A330neo aircraft in 2017,
+              it'S offering lots of
+            </p>
+          </div>
+          <div
+            class="heading-div"
+            onclick="showImage('./assests/table3.jpg', this)"
+          >
+            <h2>Genderless Kei — Japan's Hot</h2>
+            <p>
+              Set to launch on the manufacturers new A330neo aircraft in 2017,
+              it'S offering lots of
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="third">
+      <h1 class="chooseus">EXPERTS GROWTH</h1>
+      <h2 class="best">OUR COMPANY GROWTH</h2>
+      <div class="statsContainer second">
+        <div class="stats">
+          <i class="fa-solid fa-heart"></i>
+          <h3>199 +</h3>
+          <p>Satisfied Customers</p>
+        </div>
+        <div class="stats">
+          <i class="fa-regular fa-clock"></i>
+          <h3>1591 +</h3>
+          <p>Days of Operation</p>
+        </div>
+        <div class="stats">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>283 +</h3>
+          <p>Complete Project</p>
+        </div>
+        <div class="stats">
+          <i class="fa-solid fa-trophy"></i>
+          <h3>075 +</h3>
+          <p>Win Awards</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <h1 class="chooseus">CLIENT'S FEEDBACK</h1>
+    <h2 class="best">PEOPLE SAY'S ABOUT US !</h2>
+
+    <div class="chooseusp">
+      <p>
+        Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is
+        reproduced below for those interested. Sections Bonorum et Malorum
+        original.
+      </p>
+      <p class="user">
+        JANAT TUMPA<span> - COO, AMERIMAR ENTERPRISES, INC.</span>
+      </p>
+    </div>
+    <img src="./assests/bottom.png" class="img" />
+
+
+    <script>
+      $("form").submit(function(e){
+          e.preventDefault();
+          var action = $(this).attr("action");
+          $.ajax({
+          type: "POST",
+          url: action,
+          crossDomain: true,
+          data: new FormData(this),
+          dataType: "json",
+          processData: false,
+          contentType: false,
+          headers: {
+          "Accept": "application/json"
+          }
+      }).done(function() {
+          alert('The form was submitted successfully.')
+      }).fail(function() {
+          alert('An error occurred! Please try again later.')
+      });
+      });
+  </script>
+
+    <script>
+      const modal = document.getElementById("myModal");
+
+      function openModal() {
+        modal.style.display = "flex";
+        modal.style.visibility = "visible";
+      }
+
+      function handleFocus(input) {
+        const label = input.nextElementSibling;
+        label.style.transform = "translateY(-20px)";
+      }
+
+      function handleInputChange(input) {
+        const label = input.nextElementSibling;
+        if (input.value) {
+          label.style.transform = "translateY(-20px)";
+        }
+      }
+
+      function closeModal() {
+        modal.style.display = "none";
+        modal.style.visibility = "hidden";
+      }
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+      function showImage(imageSrc, div) {
+        document.getElementById("main-image").src = imageSrc;
+        highlightDiv(div);
+      }
+
+      function highlightDiv(div) {
+        var divs = document.querySelectorAll(
+          ".headings-container .heading-div"
+        );
+        divs.forEach(function (d) {
+          d.classList.remove("selected");
+        });
+        div.classList.add("selected");
+      }
+    </script>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let slides = document.querySelectorAll(".slide");
+        let dots = document.querySelectorAll(".dot");
+        let dotContainer = document.querySelectorAll(".dotContainer");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        slides.forEach((slide, index) => {
+          slide.style.display = index + 1 === slideIndex ? "flex" : "none";
+        });
+        dots.forEach((dot, index) => {
+          dot.className = dot.className.replace(" active", "");
+          if (index + 1 === slideIndex) {
+            dot.className += " active";
+          }
+        });
+        dotContainer.forEach((dot, index) => {
+          dot.className = dot.className.replace(" active", "");
+          if (index + 1 === slideIndex) {
+            dot.className += " active";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
